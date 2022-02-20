@@ -1,0 +1,52 @@
+{
+    "type": "Program",
+    "start": 0,
+    "end": 16,
+    "body": [
+      {
+        "type": "ExpressionStatement",
+        "start": 0,
+        "end": 16,
+        "expression": {
+          "type": "CallExpression",
+          "start": 0,
+          "end": 16,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 0,
+            "end": 8,
+            "object": {
+              "type": "Identifier",
+              "start": 0,
+              "end": 4,
+              "name": "Math"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 5,
+              "end": 8,
+              "name": "max"
+            },
+            "computed": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 9,
+              "end": 12,
+              "value": 325,
+              "raw": "325"
+            },
+            {
+              "type": "Literal",
+              "start": 13,
+              "end": 15,
+              "value": 57,
+              "raw": "57"
+            }
+          ]
+        }
+      }
+    ],
+    "sourceType": "script"
+  }

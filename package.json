@@ -1,0 +1,23 @@
+{
+  "name": "hello-compilers",
+  "version": "1.0.1",
+  "description": "See https://ull-esit-gradoii-pl.github.io/practicas/hello-compiler.html",
+  "main": "main.js",
+  "scripts": {
+    "test": "npm run build; mocha",
+    "mmt": "npm run build; ./bin/mmt.js",
+    "build": "jison src/maxmin-ast.jison src/maxmin.l -o src/maxmin.js",
+    "cov": "nyc npm run test"
+  },
+  "keywords": ["ULL", "compiler-construction", "abstract-syntax-tree", "parsing"],
+  "author": "Casiano Rodriguez Leon <crguezl@ull.edu.es> (https://crguezl.github.io/)",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "commander": "^9.0.0",
+    "espree": "^9.3.1",
+    "jison": "^0.4.18",
+    "mocha": "^9.2.0",
+    "nyc": "^15.1.0"
+  }
+}

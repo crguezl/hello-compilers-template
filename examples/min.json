@@ -1,0 +1,36 @@
+{
+    "type": "Program",
+    "body": [
+      {
+        "type": "ExpressionStatement",
+        "expression": {
+          "type": "CallExpression",
+          "callee": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "Math"
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "min"
+            },
+            "computed": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "value": 325,
+              "raw": "325"
+            },
+            {
+              "type": "Literal",
+              "value": 57,
+              "raw": "57"
+            }
+          ]
+        }
+      }
+    ],
+    "sourceType": "script"
+  }
